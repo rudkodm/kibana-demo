@@ -32,7 +32,7 @@ EOF
 }
 
 
-hdp-creaate-docker-machine() {
+hdp-create-docker-machine() {
     docker-machine rm default
     docker-machine create -d virtualbox --virtualbox-memory=8092 --virtualbox-cpu-count=4 --virtualbox-disk-size=50000 default
 }
